@@ -19,7 +19,7 @@ struct ContentView: View {
                    NavigationLink(destination: DetailView(recipe: recipe)) {
                         Text(recipe.name)
                     }
-                }
+                }.navigationTitle("Recipes")
             }
         }
         .padding()

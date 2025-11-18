@@ -86,7 +86,7 @@ struct DetailView: View {
                 
                 Spacer()
             }
-        }
+        }.navigationTitle("Recipe Detail")
     }
 }
 
