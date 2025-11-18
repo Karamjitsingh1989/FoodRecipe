@@ -20,7 +20,7 @@ struct ContentView: View {
                         Text(recipe.name)
                     }
                 }
-            }
+            }.navigationTitle("Recipes")
         }
         .padding()
     }
